@@ -53,7 +53,7 @@ const MobileNav = () => {
                           "flex gap-4 items-center p-4 rounded-lg w-full max-w-60",
                           { "bg-blue-600": isActive }
                         )}
-                      >
+                      > 
                         <Image
                           src={link.imgURL}
                           alt={link.label}

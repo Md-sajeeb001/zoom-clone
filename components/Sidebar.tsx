@@ -16,7 +16,7 @@ const Sidebar = () => {
       lg:w-[264px]"
     >
       {sidebarLinks.map((link) => {
-        const isActive =
+        const isActive = 
           pathname === link.route || pathname.startsWith(`${link.route}/`);
 
         return (
