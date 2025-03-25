@@ -19,6 +19,10 @@
   position: relative;
 }
 
+.cl-providerIcon__github{
+  filter: invert(1);
+}
+
 .str-video__speaker-layout__wrapper {
   max-height: 700px;
 }
@@ -60,9 +64,9 @@
 
 /* ==== clerk class override ===== */
 
-.cl-userButtonPopoverActionButtonIcon {
+/* .cl-userButtonPopoverActionButtonIcon {
   color: white;
-}
+} */
 
 .cl-logoBox {
   height: 40px;
@@ -79,9 +83,9 @@
 .cl-internal-wkkub3 {
   color: white;
 }
-.cl-userButtonPopoverActionButton {
+/* .cl-userButtonPopoverActionButton {
   color: white;
-}
+} */
 
 /* =============================== */
 
