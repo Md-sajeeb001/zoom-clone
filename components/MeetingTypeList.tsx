@@ -31,7 +31,7 @@ const MeetingTypeList = () => {
 
     try {
       if (!values.dateTime) {
-        alert(prompt("please select date & time"));
+        alert("please select date & time");
       }
 
       const id = crypto.randomUUID();
@@ -57,10 +57,10 @@ const MeetingTypeList = () => {
       if (!values.description) {
         router.push(`/meeting/${call.id}`);
       }
-      alert(prompt("meeting created"));
+      alert("meeting created");
     } catch (error) {
       console.log(error);
-      alert(prompt("failed to create meeting"));
+      alert("failed to create meeting");
     }
   };
 
